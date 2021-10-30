@@ -9,47 +9,73 @@ const num6 = document.querySelector('.num6');
 const num7 = document.querySelector('.num7');
 const num8 = document.querySelector('.num8');
 const num9 = document.querySelector('.num9');
-let displayValue;
+let displayValue = '';
 num0.addEventListener('click', () => {
-    displayValue = 0;
-    display.textContent = displayValue;
+    displayValue = '0';
+    display.textContent += displayValue;
 });
 num1.addEventListener('click', () => {
-    displayValue = 1;
-    display.textContent = displayValue;
+    displayValue = '1';
+    display.textContent += displayValue;
 });
 num2.addEventListener('click', () => {
-    displayValue = 2;
-    display.textContent = displayValue;
+    displayValue = '2';
+    display.textContent += displayValue;
 });
 num3.addEventListener('click', () => {
-    displayValue = 3;
-    display.textContent = displayValue;
+    displayValue = '3';
+    display.textContent += displayValue;
 });
 num4.addEventListener('click', () => {
-    displayValue = 4;
-    display.textContent = displayValue;
+    displayValue = '4';
+    display.textContent += displayValue;
 });
 num5.addEventListener('click', () => {
-    displayValue = 5;
-    display.textContent = displayValue;
+    displayValue = '5';
+    display.textContent += displayValue;
 });
 num6.addEventListener('click', () => {
-    displayValue = 6;
-    display.textContent = displayValue;
+    displayValue = '6';
+    display.textContent += displayValue;
 });
 num7.addEventListener('click', () => {
-    displayValue = 7;
-    display.textContent = displayValue;
+    displayValue = '7';
+    display.textContent += displayValue;
 });
 num8.addEventListener('click', () => {
-    displayValue = 8;
-    display.textContent = displayValue;
+    displayValue = '8';
+    display.textContent += displayValue;
 });
 num9.addEventListener('click', () => {
-    displayValue = 9;
+    displayValue = '9';
+    display.textContent += displayValue;
+});
+const addBtn = document.querySelector('.op-+');
+const subtractBtn = document.querySelector('.op--');
+const multiplyBtn = document.querySelector('.op-*');
+const divideBtn = document.querySelector('.op-/');
+const clearBtn = document.querySelector('.op-c');
+addBtn.addEventListener('click', () => {
+    displayValue = '+';
+    display.textContent += displayValue;
+});
+subtractBtn.addEventListener('click', () => {
+    displayValue = '-';
+    display.textContent += displayValue;
+});
+multiplyBtn.addEventListener('click', () => {
+    displayValue = '*';
+    display.textContent += displayValue;
+});
+divideBtn.addEventListener('click', () => {
+    displayValue = '/';
+    display.textContent += displayValue;
+});
+clearBtn.addEventListener('click', () => {
+    displayValue = '';
     display.textContent = displayValue;
 });
+
 const add = function(a,b){
     let result = a + b;
         return result
