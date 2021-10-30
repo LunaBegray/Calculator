@@ -1,0 +1,19 @@
+.wholePage{
+    display:flex;
+    justify-content:center;
+}
+.calculator-box{
+    background-color:gray;
+    padding:30px;
+}
+.display{
+    height:30px;
+    margin-bottom:20px;
+}
+.button-box{
+    display:flex;
+}
+.number-box{
+    flex-wrap:wrap;
+    width:150px;
+}
