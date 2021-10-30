@@ -122,10 +122,12 @@ const multiplyBtn = document.querySelector('.opMu');
 const divideBtn = document.querySelector('.opDi');
 const clearBtn = document.querySelector('.opC');
 let whichOp;
+let operationNum;
 
 equalBtn.addEventListener('click', (a,b) => {
-    displayValue ='';
-    displayValue = operate(a,b);
+    display.textContent = '';
+    operationNum = operate(a,b);
+    displayValue = operationNum.toString();
     display.textContent += displayValue;
 });
 addBtn.addEventListener('click', () => {
