@@ -9,6 +9,7 @@ const num6 = document.querySelector('.num6');
 const num7 = document.querySelector('.num7');
 const num8 = document.querySelector('.num8');
 const num9 = document.querySelector('.num9');
+
 let displayValue = '';
 num0.addEventListener('click', () => {
     displayValue = '0';
@@ -50,11 +51,17 @@ num9.addEventListener('click', () => {
     displayValue = '9';
     display.textContent += displayValue;
 });
-const addBtn = document.querySelector('.op-+');
-const subtractBtn = document.querySelector('.op--');
-const multiplyBtn = document.querySelector('.op-*');
-const divideBtn = document.querySelector('.op-/');
-const clearBtn = document.querySelector('.op-c');
+const equalBtn = document.querySelector('.op=');
+const addBtn = document.querySelector('.op+');
+const subtractBtn = document.querySelector('.op-');
+const multiplyBtn = document.querySelector('.op*');
+const divideBtn = document.querySelector('.op/');
+const clearBtn = document.querySelector('.opC');
+
+equalBtn.addEventListener('click', () => {
+    displayValue = '=';
+    display.textContent += displayValue;
+});
 addBtn.addEventListener('click', () => {
     displayValue = '+';
     display.textContent += displayValue;
