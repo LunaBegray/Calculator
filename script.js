@@ -51,11 +51,11 @@ num9.addEventListener('click', () => {
     displayValue = '9';
     display.textContent += displayValue;
 });
-const equalBtn = document.querySelector('.op=');
-const addBtn = document.querySelector('.op+');
-const subtractBtn = document.querySelector('.op-');
-const multiplyBtn = document.querySelector('.op*');
-const divideBtn = document.querySelector('.op/');
+const equalBtn = document.querySelector('.opEq');
+const addBtn = document.querySelector('.opPl');
+const subtractBtn = document.querySelector('.opSu');
+const multiplyBtn = document.querySelector('.opMu');
+const divideBtn = document.querySelector('.opDi');
 const clearBtn = document.querySelector('.opC');
 
 equalBtn.addEventListener('click', () => {
