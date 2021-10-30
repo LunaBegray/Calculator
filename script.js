@@ -20,7 +20,7 @@ num0.addEventListener('click', () => {
     if(a === undefined){
         a = 0;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 0){
         b = 0;
     }
 });
@@ -30,7 +30,7 @@ num1.addEventListener('click', () => {
     if(a === undefined){
         a = 1;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 1){
         b = 1;
     }
 });
@@ -40,7 +40,7 @@ num2.addEventListener('click', () => {
     if(a === undefined){
         a = 2;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 2){
         b = 2;
     }
 });
@@ -50,7 +50,7 @@ num3.addEventListener('click', () => {
     if(a === undefined){
         a = 3;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 3){
         b = 3;
     }
 });
@@ -60,7 +60,7 @@ num4.addEventListener('click', () => {
     if(a === undefined){
         a = 4;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 4){
         b = 4;
     }
 });
@@ -70,7 +70,7 @@ num5.addEventListener('click', () => {
     if(a === undefined){
         a = 5;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 5){
         b = 5;
     }
 });
@@ -80,7 +80,7 @@ num6.addEventListener('click', () => {
     if(a === undefined){
         a = 6;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 6){
         b = 6;
     }
 });
@@ -90,7 +90,7 @@ num7.addEventListener('click', () => {
     if(a === undefined){
         a = 7;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 7){
         b = 7;
     }
 });
@@ -100,7 +100,7 @@ num8.addEventListener('click', () => {
     if(a === undefined){
         a = 8;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 8){
         b = 8;
     }
 });
@@ -110,7 +110,7 @@ num9.addEventListener('click', () => {
     if(a === undefined){
         a = 9;
     }
-    if(b === undefined){
+    if(b === undefined && a !== 9){
         b = 9;
     }
 });
