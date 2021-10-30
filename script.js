@@ -124,6 +124,7 @@ const clearBtn = document.querySelector('.opC');
 let whichOp;
 
 equalBtn.addEventListener('click', (a,b) => {
+    displayValue ='';
     displayValue = operate(a,b);
     display.textContent += displayValue;
 });
@@ -153,6 +154,7 @@ clearBtn.addEventListener('click', () => {
     a = undefined;
     b = undefined;
     result = undefined;
+    whichOp = undefined;
 });
 //calculator math section
 const add = function(a,b){
