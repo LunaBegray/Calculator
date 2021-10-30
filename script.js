@@ -10,43 +10,43 @@ const num7 = document.querySelector('.num7');
 const num8 = document.querySelector('.num8');
 const num9 = document.querySelector('.num9');
 let displayValue;
-num0.addEventListner('click', () => {
+num0.addEventListener('click', () => {
     displayValue = 0;
     display.textContent = displayValue;
 });
-num1.addEventListner('click', () => {
+num1.addEventListener('click', () => {
     displayValue = 1;
     display.textContent = displayValue;
 });
-num2.addEventListner('click', () => {
+num2.addEventListener('click', () => {
     displayValue = 2;
     display.textContent = displayValue;
 });
-num3.addEventListner('click', () => {
+num3.addEventListener('click', () => {
     displayValue = 3;
     display.textContent = displayValue;
 });
-num4.addEventListner('click', () => {
+num4.addEventListener('click', () => {
     displayValue = 4;
     display.textContent = displayValue;
 });
-num5.addEventListner('click', () => {
+num5.addEventListener('click', () => {
     displayValue = 5;
     display.textContent = displayValue;
 });
-num6.addEventListner('click', () => {
+num6.addEventListener('click', () => {
     displayValue = 6;
     display.textContent = displayValue;
 });
-num7.addEventListner('click', () => {
+num7.addEventListener('click', () => {
     displayValue = 7;
     display.textContent = displayValue;
 });
-num8.addEventListner('click', () => {
+num8.addEventListener('click', () => {
     displayValue = 8;
     display.textContent = displayValue;
 });
-num9.addEventListner('click', () => {
+num9.addEventListener('click', () => {
     displayValue = 9;
     display.textContent = displayValue;
 });
