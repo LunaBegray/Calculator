@@ -131,22 +131,22 @@ equalBtn.addEventListener('click', () => {
 addBtn.addEventListener('click', () => {
     displayValue = '+';
     display.textContent += displayValue;
-    whichOp = add(a,b);
+    whichOp = add;
 });
 subtractBtn.addEventListener('click', () => {
     displayValue = '-';
     display.textContent += displayValue;
-    whichOp = subtract(a,b);
+    whichOp = subtract;
 });
 multiplyBtn.addEventListener('click', () => {
     displayValue = '*';
     display.textContent += displayValue;
-    whichOp = multiply(a,b);
+    whichOp = multiply;
 });
 divideBtn.addEventListener('click', () => {
     displayValue = '/';
     display.textContent += displayValue;
-    whichOp = divide(a,b);
+    whichOp = divide;
 });
 clearBtn.addEventListener('click', () => {
     displayValue = '';
@@ -174,6 +174,6 @@ const divide = function(a,b){
         return result
 }
 function operate(a,b){
-    let finalResult = whichOp;
+    let finalResult = whichOp(a,b);
         return finalResult
 }
