@@ -123,7 +123,7 @@ const divideBtn = document.querySelector('.opDi');
 const clearBtn = document.querySelector('.opC');
 let whichOp;
 
-equalBtn.addEventListener('click', (a,b) => {
+equalBtn.addEventListener('click', () => {
     display.textContent = '';
     displayValue = operate(a,b);
     display.textContent += displayValue;
